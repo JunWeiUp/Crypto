@@ -4,6 +4,12 @@
 
 这是一个基于 Android 的加密货币钱包应用，用于展示用户的加密货币资产。应用采用现代化的架构设计，支持多种加密货币的余额和汇率展示，并提供了良好的用户体验和错误处理机制。
 
+## 下载
+
+你可以从 GitHub Releases 页面下载最新版本的 APK：
+
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/用户名/仓库名?label=下载)](https://github.com/用户名/仓库名/releases/latest)
+
 ## 功能特点
 
 - **多币种支持**：支持 BTC、ETH、CRO、USDT、DAI 等多种加密货币
@@ -103,6 +109,18 @@ app/src/main/
 1. 克隆仓库
 2. 使用 Android Studio 打开项目
 3. 构建并运行应用
+
+## 发布新版本
+
+要发布新版本，请按照以下步骤操作：
+
+1. 更新版本号（在 `app/build.gradle` 中）
+2. 提交更改并创建新的标签：
+   ```bash
+   git tag -a v1.0.0 -m "版本 1.0.0"
+   git push origin v1.0.0
+   ```
+3. GitHub Actions 将自动构建并发布 APK
 
 ## 许可证
 
