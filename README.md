@@ -8,7 +8,7 @@
 
 你可以从 GitHub Releases 页面下载最新版本的 APK：
 
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/用户名/仓库名?label=下载)](https://github.com/用户名/仓库名/releases/latest)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/${{ github.repository }}?label=下载)](https://github.com/${{ github.repository }}/releases/latest)
 
 ## 功能特点
 
