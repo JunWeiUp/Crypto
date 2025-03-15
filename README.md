@@ -8,7 +8,7 @@
 
 你可以从 GitHub Releases 页面下载最新版本的 APK：
 
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/${{ github.repository }}?label=下载)](https://github.com/${{ github.repository }}/releases/latest)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/JunWeiUp/Crypto?label=下载)](https://github.com/JunWeiUp/Crypto/releases/latest)
 
 ## 功能特点
 
